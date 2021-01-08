@@ -1,6 +1,6 @@
 # CSLR Canopy Forum Scraper
 
-Used to gather [Canopy Forum](https://canopyforum.org/) Authors and Articles for the CSLR Team.o
+Used to gather [Canopy Forum](https://canopyforum.org/) Authors and Articles for the CSLR Team.
 
 ## Usage:
 	
@@ -25,6 +25,9 @@ If you have set the `auto_email` script flag to `True`, then you must use the fo
   - `--email` - The from sender (gmail account - CSLR team, see login info for scraper email)
   - `--password` - The password for the from sender
   - `--to` - The to email address (can be any email address)
+
+
+Example: `python3 CFScraper.py --email "MY EMAIL" --password "MY PASSWORD", --to "TO EMAIL"`
 
 ## Bugs
 
